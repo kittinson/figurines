@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+puts 'Creating comments...'
+Comment.create!({
+  description: "Крутая фигурка",
+  review: "Очень красивая фигурка"
+})
+Comment.create!({
+  description: "Крутая фигурка Окси",
+  review: "Очень очень красивая фигурка"
+})
+puts 'Finished!'
