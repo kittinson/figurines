@@ -8,7 +8,7 @@ config.webpacker.check_yarn_integrity = false
   # Code is not reloaded between requests.
   config.cache_classes = true
   # config.assets.css_compressor = :yui
-  config.assets.js_compressor = :uglifier
+  # config.assets.js_compressor = :uglifier
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
@@ -50,7 +50,7 @@ config.webpacker.check_yarn_integrity = false
   # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  # config.force_ssl = true
+  config.force_ssl = true
 
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
