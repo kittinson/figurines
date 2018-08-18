@@ -24,4 +24,3 @@ module Figurines
   end
 end
 
-config.action_controller.asset_host = 'http://' + Figaro.env.hostname
