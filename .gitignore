@@ -1,16 +1,70 @@
-.bundle
-log/*.log
-tmp/**/*
-tmp/*
-!log/.keep
-!tmp/.keep
-*.swp
+# .bundle
+# log/*.log
+# tmp/**/*
+# tmp/*
+# !log/.keep
+# !tmp/.keep
+# *.swp
+# .DS_Store
+# public/assets
+# public/packs
+# public/packs-test
+# node_modules
+# yarn-error.log
+# .byebug_history
+# .env*
+# public/assets
+
+/.bundle
+/vendor/bundle/
+/vendor/ruby/
+
+
+db/*.sqlite3
+/db/*.sqlite3-journal
+/log/*
+/tmp/*
+
+
+**.war
+*.rbc
+*.sassc
+.redcar/
+.sass-cache
+/config/config.yml
+/config/database.yml
+/coverage.data
+/coverage/
+/db/*.javadb/
+/db/*.sqlite3
+/doc/api/
+/doc/app/
+/doc/features.html
+/doc/specs.html
+/public/cache
+/public/stylesheets/compiled
+/public/system/*
+/spec/tmp/*
+/cache
+/capybara*
+/capybara-*.html
+/gems
+/specifications
+rerun.txt
+pickle-email-*.html
+.zeus.sock
+
+**.orig
+
 .DS_Store
-public/assets
-public/packs
-public/packs-test
-node_modules
-yarn-error.log
-.byebug_history
-.env*
-public/assets
+
+/nbproject/
+
+.idea
+
+/*.tmproj
+
+**.swp
+
+.env
+.powenv
