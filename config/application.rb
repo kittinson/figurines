@@ -23,3 +23,5 @@ module Figurines
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+config.action_controller.asset_host = 'http://' + Figaro.env.hostname
